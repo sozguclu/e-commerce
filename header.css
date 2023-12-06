@@ -1,0 +1,169 @@
+.header{
+    border-bottom: 1px solid white;
+    position: relative;
+    height: 200vh;
+    
+}
+.header-row{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 90px;
+    margin-bottom: 40px;
+
+}
+.header-left-logo a{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    
+    
+
+  
+}
+.global-notification{
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 0;
+    font-size: 18px;
+    text-align: center;
+   
+
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-mobile{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.header-left-logo {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    
+
+  
+}
+
+.header-center .navigation .menu-list {
+    display: flex;
+    margin-top: 13px;
+    padding: 10px;
+    column-gap: 1.875rem;
+    font-weight: 400px;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.header-center .navigation .menu-list .item:hover{
+    text-decoration: underline;
+    color: cadetblue;
+
+}
+
+.header-center .menu-list i{
+    color: cadetblue;
+}
+.header-center .bi-x-circle{
+    display: none ;
+}
+
+header .dropdown-wrapper{
+    letter-spacing: 0;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+
+header .dropdown-content{
+    
+    background-color: white;
+    border: 1px solid #dee0ea;
+    
+
+    
+
+
+}
+
+
+.header-center .navigation .menu-list .item:hover .dropdown-wrapper{
+    opacity: 1;
+    visibility: visible;
+
+
+}
+
+
+
+
+
+.header-right .header-right-links{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    margin: -15px;
+}
+.header-right .header-account{
+    position: relative;
+}
+
+.header-right .bi-person{
+    position: absolute;
+    font-size: 23px;
+   
+    top: -12px;
+    right: -3px;
+    
+}
+
+.header-right .toggle-button{
+    background-color: transparent;
+    color: cadetblue;
+    border: none;
+    top:-10px;
+    right: -3px;
+    
+    
+    
+}
+
+.header-right i{
+    font-size: 18px;
+    display: flex;
+    
+}
+
+.header-right .header-cart{
+    position:relative;
+    bottom: 2.5px;
+}
+
+.header-right .header-cart-link .header-cart-count{
+    width: 15px;
+    height: 15px;
+    background-color: gainsboro;
+    color: black;
+    font-size: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
